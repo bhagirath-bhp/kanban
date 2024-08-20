@@ -1,6 +1,6 @@
 // src/components/BurnBarrel.js
 import React, { useState } from 'react';
-import { handleBurnBarrelDragOver, handleBurnBarrelDragLeave, handleBurnBarrelDrop } from '../utils/burnBarrelUtils';
+import { handleBurnBarrelDragOver, handleBurnBarrelDragLeave, handleBurnBarrelDrop } from '../../utils/burnBarrelUtils';
 
 const BurnBarrel = ({ setCards }) => {
     const [active, setActive] = useState(false);

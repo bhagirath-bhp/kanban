@@ -1,7 +1,7 @@
 // src/components/Card.js
 import React from 'react';
 import { motion } from 'framer-motion';
-import { handleDragStart } from '../utils/dragUtils';
+import { handleDragStart } from '../../utils/dragUtils';
 
 const Card = ({ title, id, column }) => {
     return (

@@ -1,9 +1,9 @@
 // src/components/Board.js
 import React, { useEffect, useState } from 'react';
-import Column from './Column';
-import BurnBarrel from './BurnBarrel';
-import { DEFAULT_CARDS } from '../constants/defaultCards';
-import { getStoredCards, setStoredCards } from '../utils/localStorageUtils';
+import Column from '../Column';
+import BurnBarrel from '../BurnBarrel';
+import { DEFAULT_CARDS } from '../../constants/defaultCards';
+import { getStoredCards, setStoredCards } from '../../utils/generalUtils';
 
 const Board = () => {
     const [cards, setCards] = useState(DEFAULT_CARDS);

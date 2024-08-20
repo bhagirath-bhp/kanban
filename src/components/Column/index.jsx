@@ -1,9 +1,9 @@
 // src/components/Column.js
 import React, { useState } from 'react';
-import Card from './Card';
-import DropIndicator from './DropIndicator';
-import AddCard from './AddCard';
-import { handleDragOver, handleDragLeave, handleDragEnd } from '../utils/dragUtils';
+import Card from '../Card';
+import DropIndicator from '../DropIndicator';
+import AddCard from '../AddCard';
+import { handleDragOver, handleDragLeave, handleDragEnd } from '../../utils/dragUtils';
 
 const Column = ({ title, headingColor, column, cards, setCards }) => {
     const [active, setActive] = useState(false);
